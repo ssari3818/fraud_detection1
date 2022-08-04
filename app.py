@@ -6,7 +6,6 @@ from sklearn.preprocessing import MinMaxScaler
 from PIL import Image
 import base64
 from sklearn.ensemble import RandomForestRegressor, RandomForestClassifier, GradientBoostingRegressor
-from tensorflow import keras
 
 st.set_page_config(layout='wide')
 st.sidebar.title('Fraud Information')
